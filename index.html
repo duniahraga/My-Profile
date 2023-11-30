@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- =============================icon====================================== -->
+   <link rel="icon" href="./assets/dunia-logo.ico">
+    <!-- ================================fonts=============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;1,100&family=Amatic+SC:wght@400;700&family=Inter&family=Open+Sans:ital@1&family=Poppins:wght@300;400;500;600&family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <!-- ========================font-awsome============================================= -->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <!-- ================================bootstrap============================================ -->
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <!-- ===========================style===================================== -->
+    <link rel="stylesheet" href="./Css/style.css" />
+    
+    <!-- ===================================media_quary=============================== -->
+    <!-- <link rel="stylesheet" href="./Css/mediaqueries.css" /> -->
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbars">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light " id="navbars">
+      <div class="container">
+        <div class="logo   d-flex justify-content-center  align-items-center  ">
+          <a class="navbar-brand fs-3 fw-bold" href="#profile">Dunia Haraga  </a>
+          <a href="#home"><img src="./assets/dunia-logo.ico" class=" rounded-pill " alt="dunia haraga logo"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#profile">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+            
+
+        </div>
+      </div>
+    </nav>
+    <section id="profile" >
+      <div class="section__pic-container ">
+        <img src="./assets/dunia-profile.png"  class=" rounded-pill "  alt="dunia haraga profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dunia Haraga</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-outline-dark "
+            
+          >
+           <a href="./files/cv.pdf" target="_blank"> Download CV</a>
+          </button>
+          <button class="btn btn-dark " onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container" class="mt-2 social">
+          <a href="https://www.linkedin.com/in/dunia-haraga-939664194/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/duniahraga" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- =======================================about=========================== -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="section__pic-container">
+              <img
+                src="./assets/dunia-about.png"
+                alt="Profile picture"
+                class="about-pic w-100  "
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-details-container mt-5">
+              <div class="about-containers">
+                <div class="details-container">
+                  <img
+                    src="./assets/experience.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <h3>Experience</h3>
+                  <p class=" fs-5">1+ years <br />Frontend Development</p>
+                </div>
+                <div class="details-container">
+                  <img
+                    src="./assets/education.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                  <h3>Education</h3>
+                  <p class=" fs-5 ">B.Sc. communication Engineer<br />M.Sc. Information technology <br/> Diploma.Full stack web developer</p>
+                  
+                </div>
+              </div>
+              <div class="text-container mt-3">
+                <p >
+                  Detail-oriented junior front-end developer with a good foundation in web development and a passion for creating visually appealing, easy-to-use interfaces. Diploma in front-end development and hands-on experience in HTML, CSS, JavaScript, and front-end frameworks, including React and Nextjs. Committed to delivering exceptional web experiences by leveraging my technical skills and collaborating effectively with cross-functional teams. Committed to keeping up with the latest industry trends and best practices to continually enhance my capabilities as a front-end developer. Seeking an opportunity to contribute to a
+                   dynamic organization and grow as a front-end development professional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+        </div>
+    </section>
+
+
+    <!-- ===========================Experience========================================= -->
+    <section id="experience" >
+      <p class="section__text__p1 mt-5">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>SASS</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>TypeScript</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>MaterialUI</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Mysql</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>PHP/wordpress</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>React/Nexjs</h3>
+                      <p>Bsic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Git/Github</h3>
+                      <p>Basic</p>
+                    </div>
+                    
+                  </article>
+
+
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Python</h3>
+                      <p>Basic</p>
+                    </div>
+                    
+                  </article>
+
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Figma</h3>
+                      <p>Basic</p>
+                    </div>
+                    
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- ========================Project============================================ -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <iframe src="https://duniahraga.github.io/Mealify_Project/" frameborder="0"></iframe>
+                </div>
+                <h2 class="experience-sub-title project-title">Mealify Project</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-outline-dark  project-btn"
+                    
+                  > <a href="https://github.com/duniahraga/Mealify_Project.git" target="_blank">Github</a>
+                    
+                  </button>
+                  <button
+                    class="btn btn-outline-dark project-btn"
+                    
+                  >
+                  <a href="https://duniahraga.github.io/Mealify_Project/" target="_blank">Live Demo</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <iframe src="https://duniahraga.github.io/TO_DO_APP/" frameborder="0"></iframe>
+              </div>
+              <h2 class="experience-sub-title project-title">Daily Task</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-outline-dark project-btn"
+                  
+                >
+                  <a target="_blank" href="https://github.com/duniahraga/TO_DO_APP.git">Github</a>
+                </button>
+                <button
+                  class="btn  btn-outline-dark  project-btn"
+                 
+                >
+                <a href="https://duniahraga.github.io/TO_DO_APP/" target="_blank">Live Demo</a>
+                  
+                </button>
+              </div>
+            </div>
+           </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <iframe src="https://duniahraga.github.io/Quiz_App/" frameborder="0"></iframe>
+                </div>
+                <h2 class="experience-sub-title project-title">Quiz Project</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-outline-dark  project-btn"
+                    
+                  >
+                  <a href="https://github.com/duniahraga/Quiz_App.git" target="_blank">Github</a>
+                    
+                  </button>
+                  <button
+                    class="btn btn-outline-dark project-btn"
+                    
+                  >
+                  <a href="https://duniahraga.github.io/Quiz_App/ " target="_blank">Live Demo</a>
+                    
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <iframe src="https://duniahraga.github.io/Games/" frameborder="0"></iframe>
+                </div>
+                <h2 class="experience-sub-title project-title">Games Project</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-outline-dark  project-btn"
+                    
+                  >
+                  <a href="https://github.com/duniahraga/Games.git" target="_blank">Github</a>
+                    
+                  </button>
+                  <button
+                    class="btn btn-outline-dark project-btn"
+                    
+                  >
+                  <a href="https://duniahraga.github.io/Games/ " target="_blank">Live Demo</a>
+                    
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <iframe src="https://duniahraga.github.io/kerri/" frameborder="0"></iframe>
+                </div>
+                <h2 class="experience-sub-title project-title">Games Kerri</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-outline-dark  project-btn"
+                    
+                  >
+                  <a href="https://github.com/duniahraga/kerri.git" target="_blank">Github</a>
+                    
+                  </button>
+                  <button
+                    class="btn btn-outline-dark project-btn"
+                    
+                  >
+                  <a href="https://duniahraga.github.io/kerri/ " target="_blank">Live Demo</a>
+                    
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <iframe src="https://duniahraga.github.io/Yummay_app/" frameborder="0"></iframe>
+                </div>
+                <h2 class="experience-sub-title project-title">Games Kerri</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-outline-dark  project-btn"
+                    
+                  >
+                  <a href="https://github.com/duniahraga/Yummay_app.git" target="_blank">Github</a>
+                    
+                  </button>
+                  <button
+                    class="btn btn-outline-dark project-btn"
+                    
+                  >
+                  <a href="https://duniahraga.github.io/Yummay_app/ " target="_blank">Live Demo</a>
+                    
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- ========================================contact================================ -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:duniahraga98@gmail.com">duniahraga98@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/dunia-haraga-939664194/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Dunia Haraga. All Rights Reserved.</p>
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="/js/script.js"></script>
+    
+  </body>
+</html>
