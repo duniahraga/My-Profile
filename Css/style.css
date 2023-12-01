@@ -141,10 +141,10 @@ a:hover {
 
 section {
   padding-top: 10vh;
+  
 
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
+
+ 
 }
 
 .section-container {
@@ -157,17 +157,18 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 9rem;
-  height: 90vh;
+  
+  height: 100vh;
   margin-top: 3.125rem;
   
 }
 
 
 
-.section__pic-container img {
-  height: 500px;
-  width: 500px;
+.section__pic-container  {
+  height: 31.25rem;
+  width: 31.25rem;
+  
   
   
 }
@@ -295,20 +296,10 @@ section {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
 
 
 .text-container p {
-  font-size: 19px;
+  font-size: 1.25rem;
 }
 
 /* EXPERIENCE SECTION */
@@ -350,7 +341,9 @@ article {
 article .icon {
   cursor: default;
 }
-
+article h3{
+  font-size: 20px;
+}
 /* PROJECTS SECTION */
 
 #projects {

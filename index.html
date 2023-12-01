@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./Css/style.css" />
     
     <!-- ===================================media_quary=============================== -->
-    <!-- <link rel="stylesheet" href="./Css/mediaqueries.css" /> -->
+    <link rel="stylesheet" href="./Css/mediaqueries.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbars">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light " id="navbars">
@@ -56,39 +56,49 @@
         </div>
       </div>
     </nav>
-    <section id="profile" >
-      <div class="section__pic-container ">
-        <img src="./assets/dunia-profile.png"  class=" rounded-pill "  alt="dunia haraga profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Dunia Haraga</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-outline-dark "
-            
-          >
-           <a href="./files/cv.pdf" target="_blank"> Download CV</a>
-          </button>
-          <button class="btn btn-dark " onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container" class="mt-2 social">
-          <a href="https://www.linkedin.com/in/dunia-haraga-939664194/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/duniahraga" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <!-- ==============================home===================================== -->
+    <section id="profile" class="  " >
+      <div class="container">
+        <div class="row    ">
+          <div class="col-lg-6 col-md-6 col-sm-12   ">
+            <div class="section__pic-container ms-auto  ">
+              <img src="./assets/dunia-profile.png"  class=" rounded-pill w-100    "  alt="dunia haraga profile picture" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="section__text">
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Dunia Haraga</h1>
+              <p class="section__text__p2">Frontend Developer</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-outline-dark "
+                  
+                >
+                 <a href="./files/Duni_Hragaa_CV.pdf" target="_blank"> Download CV</a>
+                </button>
+                <button class="btn btn-dark " onclick="location.href='./#contact'">
+                  Contact Info
+                </button>
+              </div>
+              <div id="socials-container" class="mt-2 social">
+                <a href="https://www.linkedin.com/in/dunia-haraga-939664194/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/duniahraga" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- =======================================about=========================== -->
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
+    <section id="about" class=" mt-5">
+      <div class=" container ">
+        <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="section__pic-container">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="section__pic-container m-auto ">
               <img
                 src="./assets/dunia-about.png"
                 alt="Profile picture"
@@ -96,8 +106,8 @@
               />
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-details-container mt-5">
+          <div class="col-lg-6 col-md-12 col-sm-12  ">
+            <div class="about-details-container mt-5 m-auto ">
               <div class="about-containers">
                 <div class="details-container">
                   <img
@@ -106,7 +116,7 @@
                     class="icon"
                   />
                   <h3>Experience</h3>
-                  <p class=" fs-5">1+ years <br />Frontend Development</p>
+                  <p >1+ years <br />Frontend Development</p>
                 </div>
                 <div class="details-container">
                   <img
@@ -115,12 +125,12 @@
                     class="icon"
                   />
                   <h3>Education</h3>
-                  <p class=" fs-5 ">B.Sc. communication Engineer<br />M.Sc. Information technology <br/> Diploma.Full stack web developer</p>
+                  <p>B.Sc. communication Engineer<br />M.Sc. Information technology <br/> Diploma.Full stack web developer</p>
                   
                 </div>
               </div>
               <div class="text-container mt-3">
-                <p >
+                <p class="fs-5">
                   Detail-oriented junior front-end developer with a good foundation in web development and a passion for creating visually appealing, easy-to-use interfaces. Diploma in front-end development and hands-on experience in HTML, CSS, JavaScript, and front-end frameworks, including React and Nextjs. Committed to delivering exceptional web experiences by leveraging my technical skills and collaborating effectively with cross-functional teams. Committed to keeping up with the latest industry trends and best practices to continually enhance my capabilities as a front-end developer. Seeking an opportunity to contribute to a
                    dynamic organization and grow as a front-end development professional.
                 </p>
@@ -135,16 +145,18 @@
           onclick="location.href='./#experience'"
         />
         </div>
+      </div>
     </section>
 
 
     <!-- ===========================Experience========================================= -->
     <section id="experience" >
-      <p class="section__text__p1 mt-5">Explore My</p>
+      <div class=" container ">
+        <p class="section__text__p1 mt-5">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="row">
+          <div class="row gy-3">
             <div class="col-md-6 col-sm-12">
               <div class="details-container">
                 <h2 class="experience-sub-title">Frontend Development</h2>
@@ -252,7 +264,7 @@
                     />
                     <div>
                       <h3>React/Nexjs</h3>
-                      <p>Bsic</p>
+                      <p>Basic</p>
                     </div>
                   </article>
                   <article>
@@ -306,10 +318,12 @@
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
+      </div>
     </section>
     <!-- ========================Project============================================ -->
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <div class="container">
+        <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -467,6 +481,7 @@
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
+      </div>
     </section>
 
     <!-- ========================================contact================================ -->
